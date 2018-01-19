@@ -132,3 +132,16 @@ section div {
         border: 5px solid black;
     }
 }
+
+video {
+    height: 400px;
+
+}
+
+/* script {
+    display: block;
+} */
+
+audio {
+    height: 50px;
+}
