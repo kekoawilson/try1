@@ -108,9 +108,18 @@ section div {
     background-color: blue
 }
 
-@media (min-width: 420px) {
+@media screen and (max-width: 419px) {
+    section div {
+        height: 10vh;
+        width: 30vw;
+        background-color: green
+    }
+}
+
+@media screen and (min-width: 425px) and (orientation: portrait) {
     .media-query {
-        height: 40vh;
+        height: 50vh;
+        width: 100vw;
     }
 
     section div {
