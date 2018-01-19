@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Competency</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <h1>HTML & CSS Competency</h1>
+    <h2>HTML & CSS Competency</h2>
+    <h3>HTML & CSS Competency</h3>
+    <h4>HTML & CSS Competency</h4>
+    <h5>HTML & CSS Competency</h5>
+    <h5>HTML & CSS Competency</h5>
+    <h6>HTML & CSS Competency</h6>
+    <h6>HTML & CSS Competency</h6>
+    <!-- In my css file, I have .class { font-weight: 900; background-color: aqua; font-size: 40px; } meaning any tag that a class of 'class' will receive style; lines 1 - 5 -->
+    <p class='class'>I am showing that I can use the a class to style this line.</p>
+    <!-- In my css file, I have #hi { background-image: url(https://image.freepik.com/free-vector/small-green-squares-background_1113-14.jpg); height: 400px; color: yellow; } meaning any tag that has an id of 'hi' will receive style; lines 7 - 11 -->
+    <p id="hi">I am showing that I can use the an id to style this line.</p>
+    <!-- In my css file, I have div > p { color: pink; background-color: black; } meaning any p tag that is nested directly within a div tag will receive style. only the first child will receive it.; lines 13 - 16 -->
+    <div>
+        <p>I am showing that I can use the a child combinator to style this line.</p>
+    </div>
+    <!-- In my css file, I have section  p { font-family: cursive; } meaning any p tag that falls within a section tag will receive style; lines 18 -20 -->
+    <section>
+        <p>I am showing that I can use a decendent combinator to style this line.</p>
+    </section>
+    <!-- In my css file, I have h2 + p { font-size: 55px; } meaning any p tag that follows an h2 tag will receive style; lines 22 - 24 -->
+    <h2>This is an h2 element.</h2>
+    <p>I am showing that I can use the an addition selector to style this line.</p>
+
+    <div class="fb">
+        <h3>FlexBox Example</h3>
+    </div>
+    <!-- I am using display flex in my css file starting on line 39 -->
+    <span class="flex-example">
+        <input type="text" placeholder="This is an example of a self closing tag, an input box" />
+        <a href="https://github.com/kekoawilson">Link to my github profile.</a>
+    </span>
+    <article >
+        <p>This is an article tag and is used to section off a block of related material.</p>
+        <p>Such as a comment section.</p>
+        <p>Or blog post.</p>
+    </article>
+
+    <!-- Here I will be using the position properties to display divs in certain areas of the page; lines 57 - 81 css -->
+    <div>
+        <div class="relative">
+            <h4>This div is position: relative. It's relative to it's normal position in the file.</h4>
+            <div class="absolute"><h4>This div is position: absolute, it's positioned relative to its nearest parent element. If there is none, it will use the document to position.</h4></div>
+        </div>
+        <div class="fixed"><h4>This div is position: fixed. It won't move no matter what happens.</h4></div>
+    </div>
+
+    <!-- Display properties; lines 83 - 95 in css -->
+
+    <div class="display">
+        <h5 class="float-left">This is using the float: left property.</h5>
+        <h5 class="float-right">This is using the float: right property.</h5>
+    </div>
+
+    <!-- If you inspect this part of the page and check the responsiveness, you should see the blocks change color; lines 97 - 134 in css -->
+    <h3>Media Query Example</h3>
+    <section class="media-query">
+        <div class="mq"></div>
+        <div class="mq"></div>
+        <div class="mq"></div>
+        <div class="mq"></div>
+        <div class="mq"></div>
+        <div class="mq"></div>
+    </section>
+
+</body>
+<footer>
+    <p>Here is my footer.</p>
+    <ul>
+            <li>There is a list in here.</li>
+            <li>With some list items.</li>
+    </ul>
+    <p>And a Koala image.</p>
+    <img src="https://media1.britannica.com/eb-media/26/162626-004-C076EDBD.jpg" alt="koala">
+</footer>
+
+</html>
